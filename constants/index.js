@@ -27,44 +27,44 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
+  'Discover a cosmic crib tailored to your taste and dive in headfirst. ',
+  'Utter the interstellar "HUNG" incantation for an extra dose of cosmic safety as you venture into the unknown.',
   'No need to beat around the bush, just stay on the gas and have fun',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'A Brave new world',
     subtitle:
-      'we have the latest update with new world for you to try never mind',
+      'In a Brave New World, boundaries blur as humanity confronts limitless possibilities. Utopian ideals clash with reality. A new world emerges, challenging progress and happiness. Will we thrive or succumb? Time will tell. 🔮🌈🌀',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Goodbye 2D, Hello 64D',
     subtitle:
-      'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'Farewell 3D, hello 64D! Reality expands, boundaries dissolve. Enter a multidimensional playground, where imagination soars. Embrace the unknown, redefine perception. Say hello to the extraordinary! 🌌✨🔮',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'The launch of the Universe',
     subtitle:
-      'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+      'In a cosmic explosion of epic proportions, the universe burst into existence, giving birth to an extravagant display of celestial bling. Stars sashayed, galaxies vogued, and the grand spectacle of creation unfolded, leaving us all in cosmic awe.  ✨🌕',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Mastering the Universe',
     subtitle:
-      'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+      'To master the universe, embark on a whimsical journey, fueled by curiosity and stardust. Expand knowledge, embrace cosmic wisdom, and dream beyond earthly bounds. With tenacity and intergalactic charm, claim your place among the cosmic roamers. 💫🌌 ',
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'Explore with one eye closed',
     subtitle:
-      'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+      'Embark on a daring adventure with one eye shut! Explore the universal wonders with a playful wink. Peek through the cosmic keyhole, unravel mysteries, and embrace selective perception. Discover hidden delights, whimsical secrets, and quirky cosmic surprises. 🌍🪐',
   },
 ];
 
