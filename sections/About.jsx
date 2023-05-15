@@ -32,8 +32,9 @@ const About = () => (
         <span className="font-extrabold text-white">Vajra Space</span>, be the
         creative genius that you are. Throughout beginningless time.
         <span className="font-extrabold text-white"> Imagination</span> free of
-        limits <span className="font-extrabold text-white">explore</span> the
-        wonder of the universe by scrolling down
+        limits, uncontrived.{' '}
+        <span className="font-extrabold text-white">Explore</span> the wonder of
+        the universe...
       </motion.p>
 
       <motion.img

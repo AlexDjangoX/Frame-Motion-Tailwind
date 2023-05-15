@@ -66,10 +66,10 @@ export const textContainer = {
   hidden: {
     opacity: 0,
   },
-  show: (i = 1) => ({
+  show: {
     opacity: 1,
-    transition: { staggerChildren: 0.1, delayChildren: i * 0.1 },
-  }),
+    transition: { staggerChildren: 0.1, delayChildren: 0.1 },
+  },
 };
 
 export const textVariant2 = {
