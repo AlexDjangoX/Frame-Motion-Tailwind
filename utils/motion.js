@@ -19,6 +19,21 @@ export const navVariants = {
   },
 };
 
+export const MoveRocketY = {
+  initial: {
+    y: 0,
+    x: -10,
+  },
+  animate: {
+    y: 20,
+    x: 10,
+    transition: {
+      yoyo: Infinity,
+      duration: 0.8,
+    },
+  },
+};
+
 export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,

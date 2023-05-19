@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.56.28",
+    "@react-three/fiber": "^8.11.5",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
     "next": "13.0.3",
