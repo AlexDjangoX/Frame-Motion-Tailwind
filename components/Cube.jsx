@@ -30,18 +30,18 @@ const CubeText = () => {
   const textRef = useRef();
 
   useFrame((state) => {
-    textRef.current.position.x = Math.sin(state.clock.elapsedTime) * 4;
+    textRef.current.position.x = Math.sin(state.clock.elapsedTime) * 2;
   });
 
   return (
-    <Text ref={textRef} fontSize={2} color="#555">
+    <Text ref={textRef} fontSize={2} color="#555" className="light">
       Journey Joy
     </Text>
   );
 };
 
 const Cube = () => (
-  <div className="flex justify-center h-[440px] w-auto">
+  <div className="flex justify-center h-[640px] w-auto">
     <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
       <Suspense fallback={<CanvasLoader />}>
         <ambientLight intensity={0.8} />
