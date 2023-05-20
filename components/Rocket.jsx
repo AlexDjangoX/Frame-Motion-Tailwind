@@ -16,11 +16,11 @@ const Rocket = () => (
       <Canvas>
         <Suspense fallback={<CanvasLoader />}>
           <OrbitControls enableZoom={false} />
-          <ambientLight intensity={1} />
+          <ambientLight intensity={2} />
           <directionalLight position={[3, 2, 1]} />
           <Sphere args={[1, 100, 200]} scale={2.4}>
             <MeshDistortMaterial
-              color="#3d1c56"
+              color="#1b0036"
               attach="material"
               distort={0.5}
               speed={2}
@@ -37,11 +37,11 @@ const Rocket = () => (
           exit="initial"
         >
           <Image
-            src="/moon.png"
+            src="/spaceman.png"
             alt="guy on rocket"
             width={160}
             height={160}
-            className="w-full h-auto"
+            className="w-full h-auto bg-transparent rounded-full"
           />
         </motion.div>
       </div>
